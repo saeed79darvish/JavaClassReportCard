@@ -23,16 +23,16 @@ public class FragmentScoreActivity extends Fragment {
 
         TextView textView = (TextView) rootView.findViewById(R.id.textview);
 
-        ScoreCard scoreCard = new ScoreCard(100, 100, 100, 100, 100, "Saeed Darvish", 123456789);
-        scoreCard.setChemistryGrade(90);
-        scoreCard.setMathGrad(90);
-        scoreCard.setEnglishMarks(91);
-        scoreCard.setHistoryGrade(85);
-        scoreCard.setBiologyGrade(99);
+        ReportCard reportCard = new ReportCard(100, 100, 100, 100, 100, "Saeed Darvish", 123456789);
+        reportCard.setChemistryGrade(90);
+        reportCard.setMathGrad(90);
+        reportCard.setEnglishMarks(91);
+        reportCard.setHistoryGrade(85);
+        reportCard.setBiologyGrade(99);
 
-        Log.d(LOG_TAG, scoreCard.toString());
+        Log.d(LOG_TAG, reportCard.toString());
 
-        textView.setText(scoreCard.displayResult());
+        textView.setText(reportCard.displayResult());
 
         return rootView;
     }

@@ -1,7 +1,7 @@
 package com.example.saeed.javaclassreportcard;
 
 
-public class ScoreCard {
+public class ReportCard {
 
     public static final int TOTAL = 5;
 
@@ -16,7 +16,7 @@ public class ScoreCard {
     private int sum;
     private int percentage;
 
-    public ScoreCard(int biologyGrade,
+    public ReportCard (int biologyGrade,
                      int chemistryMarks,
                      int mathGrad,
                      int historyGrade,
